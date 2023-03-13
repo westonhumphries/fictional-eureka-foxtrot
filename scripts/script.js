@@ -26,11 +26,7 @@ $(document).ready(function () {
   
   
   function nameLength(userName) {
-    //named, not anonymous. Name = nameLength
-    //parameters, one = j
-    //void if it has no return value
-  
-    return "Your name is " + userName.length + " letters long!";
+            return;
   }
   
   
@@ -40,56 +36,56 @@ $(document).ready(function () {
   
     if (userName == 1) {
       //execute some code
-      return "your spirit animal is a Snake";
+      return "I have a scar on my finger that looks like a smiley face.";
     } 
   
     else if (userName == 2) {
       //execute some code
-      return "your spirit animal is a Fox";
+      return "I love the University of Alabama Athletics. Mainly Alabama football!!";
     } 
   
-    else if (userName.length == 3) {
+    else if (userName == 3) {
       //execute some code
-      return "your spirit animal is a Liger";
+      return "I can eat an entire pizza bymyself and still be hungry";
     } 
   
-    else if (userName.length == 4) {
+    else if (userName == 4) {
       //execute some code
-      return "your spirit animal is a Dragon";
+      return "I have 2 Rottweilers that people are scared of, but they are super nice.";
     } 
   
-    else if (userName.length == 5) {
+    else if (userName == 5) {
       //execute some code
-      return "your spirit animal is a Lion";
+      return "I once battled a Dragon and won!";
     } 
   
-    else if (userName.length == 6) {
+    else if (userName == 6) {
       //execute some code
-      return "your spirit animal is a Niffler";
+      return "I am a new Harry Potter fan.";
     } 
   
-    else if (userName.length == 7) {
+    else if (userName == 7) {
       //execute some code
-      return "your spirit animal is a Owl";
+      return "I love amusement parks. Mainly Universal Studios!!";
     } 
   
-    else if (userName.length == 8) {
+    else if (userName == 8) {
       //execute some code
-      return "your spirit animal is a Otter";
+      return "If i could own a fictional creature I would own a Niffler!";
     } 
   
-    else if (userName.length == 9) {
+    else if (userName == 9) {
       //execute some code
-      return "your spirit animal is a Shark";
+      return "My favorite food is chicken wings";
     } 
   
-    else if (userName.length > 9) {
+    else if (userName > 9) {
       //execute some code
-      return "yo first name is kinda long, your spirit animal is a Giraffe!!!!";
+      return "Woah chill I don't have anymore cool facts for you😅😁";
     } 
   
     else {
-      return "You don't play my game, you get no name!!!!!";
+      return "Enter correct number or you get no cool facts!!!😡😡😡";
     }
     
   }
